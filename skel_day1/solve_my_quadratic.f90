@@ -20,7 +20,8 @@ do
   else 
     x1 = ( -b + sqrt(b**2 - 4. * a * c) ) / ( 2. * a )
     x2 = ( -b - sqrt(b**2 - 4. * a * c) ) / ( 2. * a )
-    write(*, fmt=*) 'Solutions are: ', x1, x2
+    !write(*, fmt=*) 'Solutions are: ', x1, x2
+    write(*, fmt='(a,2(f14.10))') 'Solutions are:', x1, x2
   end if
 end do
 
