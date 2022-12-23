@@ -5,7 +5,6 @@ program solve_my_quadratic
   integer :: ios
   intrinsic :: sqrt
 
-
   processing: do 
     write(*, *) 'Enter coefficients a, b, c:'
     read(*, fmt=*, iostat=ios) a, b, c
