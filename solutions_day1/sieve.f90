@@ -1,6 +1,6 @@
 program sieve
   implicit none
-  integer, parameter :: last_number = 100
+  integer, parameter :: last_number = 15000000
 !  integer, parameter :: last_number = 12534
   integer :: primes(last_number)
   integer :: num_primes
@@ -38,6 +38,6 @@ program sieve
      end if
   end do
   num_primes = k
-  write(*, *) 'number of primes <= ',last_number,':',num_primes
-  write(*, *) primes(1:num_primes)
+  !write(*, *) 'number of primes <= ',last_number,':',num_primes
+  !write(*, *) primes(1:num_primes)
 end program sieve
