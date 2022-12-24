@@ -42,6 +42,10 @@ program integer_entities
     i = mv
     write(*,*) 'value of mv copied to i has value ', i
   else
+    write(*,*) 'huge of i is ', huge(i)
+    write(*,*) 'huge of mv is ', huge(mv)
+    write(*,*) 'kind of i is ', kind(i)
+    write(*,*) 'kind of mv is ', kind(mv)
     write(*,*) 'no copy of mv due to integer overflow'
   end if
 

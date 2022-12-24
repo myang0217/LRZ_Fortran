@@ -1,4 +1,4 @@
-COMPILER=GCC
+COMPILER=Intel
 include ../make.inc
 
 
