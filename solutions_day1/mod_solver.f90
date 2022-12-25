@@ -63,6 +63,7 @@ contains
     ! simple-minded version that can fail pretty badly
     ! under some circumstances
     real :: disc, tmp
+    
 
     disc = b**2 - 4 * a * c
     if (disc > 0.0) then
